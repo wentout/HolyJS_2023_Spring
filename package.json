@@ -1,0 +1,33 @@
+{
+  "name": "2023-05-holyjs",
+  "version": "1.0.0",
+  "description": "HolyJS 2023 Spring slides and examples",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wentout/HolyJS_2023_Spring.git"
+  },
+  "keywords": [
+    "javascript",
+    "&",
+    "typescript",
+    "prototypes"
+  ],
+  "author": "went.out@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wentout/HolyJS_2023_Spring/issues"
+  },
+  "homepage": "https://github.com/wentout/HolyJS_2023_Spring#readme",
+  "dependencies": {
+    "@types/node": "^20.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
