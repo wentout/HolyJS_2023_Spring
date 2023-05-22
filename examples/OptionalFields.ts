@@ -1,6 +1,6 @@
 
 let augmentation = false;
-let store = 0;
+let store: string | number = 0;
 
 class OptionalField {
 	get field () {
@@ -9,7 +9,7 @@ class OptionalField {
 		}
 		return store;
 	}
-	set assignation (value) {
+	set assignation (value: string | number) {
 		store = value;
 		if (typeof value !== 'number') {
 			augmentation = true;

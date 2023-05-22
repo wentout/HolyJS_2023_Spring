@@ -5,7 +5,7 @@ const item = new Construct;
 console.log(item);
 
 function ExtendedConstruct () {};
-Object.setPrototypeOf(Construct.prototype, item);
+Object.setPrototypeOf(ExtendedConstruct.prototype, item);
 Construct.prototype.field = 321;
 const extendedItem = new ExtendedConstruct;
 
