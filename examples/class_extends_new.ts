@@ -5,16 +5,15 @@ class BaseClass {
 	}
 };
 class ExtendedClass extends BaseClass {
-	constructor () {
+	constructor (value) {
 		super();
-		this.field = 123;
+		this.field = value;
 	}
 };
 
+const first = new ExtendedClass(123);
+const second = new ExtendedClass(345);
 
-const item = new ExtendedClass;
-console.log(item);
 
-// number
-type itemField = typeof item.field;
+
 
