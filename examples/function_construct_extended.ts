@@ -9,9 +9,8 @@ Object.setPrototypeOf(
 	ExtendedConstruct.prototype, item);
 
 Construct.prototype.field = 321;
-
 const extendedItem = new ExtendedConstruct;
-console.log(extendedItem);
 
+console.log(extendedItem);
 
 type extendedItemField = typeof extendedItem.field;
