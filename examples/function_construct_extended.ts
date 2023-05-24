@@ -13,4 +13,5 @@ const extendedItem = new ExtendedConstruct;
 
 console.log(extendedItem);
 
-type extendedItemField = typeof extendedItem.field;
+type extendedItemField = 
+				typeof extendedItem.field;
