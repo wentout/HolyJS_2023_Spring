@@ -9,7 +9,7 @@ const define = function <P extends object, T>(Cstr: { (this: T): void }, proto: 
 	const MyConstructor = function (): Proto<P, T> {
 		return new Cstr;
 	};
-	Object.setPrototypeOf(Cstr.prototype, proto);
+	Object.setPrototypeOf(MyConstructor.prototype, proto);
 	return MyConstructor;
 };
 
@@ -18,3 +18,4 @@ const myConstruct = define(OtherConstruct, { otherField: true });
 const myConstructedItem = myConstruct();
 
 console.log(myConstructedItem);
+
